@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/device-registration.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.provider-certification]
+path = 'contracts/provider-certification.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
